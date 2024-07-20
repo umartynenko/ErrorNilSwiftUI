@@ -63,6 +63,9 @@ struct UserCardView: View {
                 }
             }
         }
+        .padding()
+        .background(.white)
+        .cornerRadius(20)
     }
 }
 
