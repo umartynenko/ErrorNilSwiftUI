@@ -55,7 +55,7 @@ struct UserCardView: View {
                                 .font(.system(size: 14))
                                 .fontWeight(.bold)
                         }
-                        .frame(width: 126, height: 26)
+                        .frame(width: 126, height: 30)
                         .background(Color("colorCustomButton2"))
                         .foregroundStyle(.white)
                         .cornerRadius(17)

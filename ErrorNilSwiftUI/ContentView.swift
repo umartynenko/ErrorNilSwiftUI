@@ -13,8 +13,8 @@ struct ContentView: View {
     @State private var searchText: String = ""
     
     var body: some View {
-        VStack(alignment: .leading) {
-            ScrollView(showsIndicators: false) {
+        ScrollView(showsIndicators: false) {
+            VStack(alignment: .leading) {
                 HStack {
                     Button {
                         print("Button tapped")
@@ -82,10 +82,9 @@ struct ContentView: View {
                 }
                 
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
-            .padding(.horizontal)
-            .background(Color("lyghtGray"))
         }
+        .padding(.horizontal)
+        .background(Color("lyghtGray"))
     }
 }
 
