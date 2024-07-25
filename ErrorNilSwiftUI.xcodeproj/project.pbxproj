@@ -11,6 +11,7 @@
 		F832CBD52C49947F00DE5633 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832CBD42C49947F00DE5633 /* ContentView.swift */; };
 		F832CBD72C49948100DE5633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F832CBD62C49948100DE5633 /* Assets.xcassets */; };
 		F832CBDA2C49948100DE5633 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F832CBD92C49948100DE5633 /* Preview Assets.xcassets */; };
+		F832CC352C52CBDF00DE5633 /* CustomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832CC342C52CBDF00DE5633 /* CustomCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F832CBD42C49947F00DE5633 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F832CBD62C49948100DE5633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F832CBD92C49948100DE5633 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F832CC342C52CBDF00DE5633 /* CustomCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		F832CBD12C49947F00DE5633 /* ErrorNilSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F832CC332C52CBAF00DE5633 /* Model */,
 				F832CBD22C49947F00DE5633 /* ErrorNilSwiftUIApp.swift */,
 				F832CBD42C49947F00DE5633 /* ContentView.swift */,
 				F832CBD62C49948100DE5633 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				F832CBD92C49948100DE5633 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F832CC332C52CBAF00DE5633 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F832CC342C52CBDF00DE5633 /* CustomCard.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				F832CBD52C49947F00DE5633 /* ContentView.swift in Sources */,
 				F832CBD32C49947F00DE5633 /* ErrorNilSwiftUIApp.swift in Sources */,
+				F832CC352C52CBDF00DE5633 /* CustomCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
